@@ -392,7 +392,7 @@ public class PopThreeJsBufferGeometry
 		var FileHandle = File.CreateText( FilePath );
 		FileHandle.Write(Json);
 		FileHandle.Close();
-		PopBrowseToFile.ShowFile( FilePath );
+		//PopBrowseToFile.ShowFile( FilePath );
 	}
 
 
